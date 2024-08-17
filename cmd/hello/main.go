@@ -8,7 +8,7 @@ import (
 
 func main() {
 	fmt.Println("hello, world")
-	words := []string{"one", "two", "three"}
+	words := []string{"one", "two", "three", "four"}
 	rand.Shuffle(len(words), func(i, j int) {
 		words[i], words[j] = words[j], words[i]
 	})
